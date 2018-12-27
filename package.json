@@ -1,0 +1,113 @@
+{
+  "name": "shawnwildermuth",
+  "version": "0.0.1",
+  "description": "Personal npm card for Shawn Wildermuth (@shawnwildermuth)",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawnwildermuth/shawnwildermuth.git"
+  },
+  "scripts": {
+    "prepare": "node src/htmlify",
+    "prepublishOnly": "webpack"
+  },
+  "bin": {
+    "shawnwildermuth": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "index.html"
+  ],
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Shawn Wildermuth",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "ansi-to-html": "^0.6.9",
+    "babel-loader": "^8.0.4",
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "lodash.get": "^4.4.2",
+    "webpack": "^4.28.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "myCard": {
+    "info": {
+      "name": "Shawn Wildermuth",
+      "handle": "shawnwildermuth",
+      "twitter": "shawnwildermuth",
+      "npm": "shawnwildermuth",
+      "github": "shawnwildermuth",
+      "linkedin": "shawnwildermuth",
+      "web": "https://wildermuth.com",
+      "youtube": "swildermuth",
+      "work": "Instructor, Code Monkey, and Filmmaker"
+    },
+    "data": [
+      "          <white>{{name}}</><green> / </><cyan>{{handle}}</>",
+      "",
+      {
+        "label": "<blue>Work</>",
+        "text": "{{work}}"
+      },
+      "",
+      {
+        "label": "Twitter",
+        "text": "https://twitter.com/<cyan>{{twitter}}</>",
+        "when": "{{twitter}}"
+      },
+      {
+        "label": "GitHub",
+        "text": "https://github.com/<green>{{github}}</>",
+        "when": "{{github}}"
+      },
+      {
+        "label": "YouTube",
+        "text": "https://youtube.com/c/<red>{{youtube}}</>",
+        "when": "{{youtube}}"
+      },
+      {
+        "label": "Web",
+        "text": "<cyan>{{web}}</>",
+        "when": "{{web}}"
+      },
+      {
+        "label": "Pluralsight",
+        "text": "<cyan>http://shawnw.me/psauthor</>"
+      },
+      {
+        "label": "Wilder Minds Teaching",
+        "text": "<cyan>https://courses.wilderminds.com</>"
+      },
+      {
+        "label": "Steam",
+        "text": "http://steamcommunity.com/id/<blue>shawnwildermuth/</>"
+      },
+      "",
+      {
+        "label": "Card",
+        "text": "<red>npx</> {{_packageName}}"
+      },
+      "",
+"<grey>                _______________________________________________</>",
+"<grey>             _-'    .-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.  --- `-_</>",
+"<grey>          _-'.-.-. .---.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.--.  .-.-.`-_</>",
+"<grey>       _-'.-.-.-. .---.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-`__`. .-.-.-.`-_</>",
+"<grey>    _-'.-.-.-.-. .-----.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-----. .-.-.-.-.`-_</>",
+"<grey> _-'.-.-.-.-.-. .---.-. .-----------------------------. .-.---. .---.-.-.-.`-_</>",
+"<grey>:-----------------------------------------------------------------------------:</>",
+"<grey>`---._.-----------------------------------------------------------------._.---'</>"
+        ]
+  }
+}
