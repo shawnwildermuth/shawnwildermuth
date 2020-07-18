@@ -1,4 +1,4 @@
-![Image](img/bio.png)
+![Image](https://github.com/shawnwildermuth/shawnwildermuth/blob/master/img/bio.png)
 
 You find more about me by visiting:
 
