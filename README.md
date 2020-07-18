@@ -1,22 +1,14 @@
-[npm] card for Shawn Wildermuth
+![Image](img/bio.png)
 
-# Usage
+You find more about me by visiting:
 
-Via npx:
+- [Twitter](https://twitter.com/shawnwildermuth)
+- [YouTube](https://shawnw.me/ytchannel)
+- [StackOverflow](https://stackoverflow.com/users/40125/shawn-wildermuth)
+- [Steam](http://steamcommunity.com/id/shawnwildermuth/)
+- [My Film: Hello World Film](https://helloworldfilm.com)
 
-```bash
-npx shawnwildermuth
-```
+And my courses on:
 
-# Other
-
-Idea and trend started by [Tierney (@bitandbang)]
-
-To create your own, use [create-my-card].
-
-ie: `npm init my-card`
-
-[npm]: https://www.npmjs.com/
-[tierney (@bitandbang)]: https://www.npmjs.com/package/bitandbang
-[create-my-card]: https://www.npmjs.com/package/create-my-card
-
+- [Wilder Minds](https://courses.wilderminds.com)
+- [Pluralsight](http://shawnw.me/pscourses)
